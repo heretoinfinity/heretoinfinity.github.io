@@ -4,14 +4,32 @@
   <title>My Hobby</title>
   <meta charset="utf-8">
   <style>
+    * {
+      box-sizing: border-box;
+
+    }
     header {
-      background: yellow;
+      background: yellow
+    }
+
+    nav > ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      /*float: left;*/
+    }
+
+    .menu li {
+      display: inline;
+      float: left;
+      padding: 0 10px 0 0;
     }
   </style>
 </head>
 <body>
   <header>
-    Soccer: World's Most Popular Sport
+    <h1>Soccer: World's Most Popular Sport</h1>
     <nav class="menu">
       <ul>
         <li>Home</li>
@@ -19,5 +37,27 @@
       </ul>
     </nav>
   </header>
+
+  <section id="main">
+    <article>
+      <h1> Things to work on to be the best you can be: </h1>
+        <h2>Alone:</h2>
+          <ul>
+            <li>Strength</li>
+            <li>Flexibility</li>
+            <li>Endurance</li>
+          </ul>
+        <h2>As a team</h2>
+          <ul>
+            <li>Communication during the game</li>
+            <li>Accountability in training and resting</li>
+          </ul>
+    </article>
+
+    <article>
+      <p> Here are some videos with drills:</p>
+
+    </article>
+  </section>
 </body>
 </html>
