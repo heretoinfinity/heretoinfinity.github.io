@@ -9,7 +9,11 @@ body {
 }
 
 header {
-  background: yellow
+  /*background: yellow;*/
+  font-family: Helvetica;
+  background-image: url('cleats.jpg');
+  background-size: 20%;
+  color: #f7ffbe;
 }
 
 #main {
@@ -37,6 +41,9 @@ img {
   height: 100px;
 }
 
+a:visited {
+  color: red;
+}
 
 footer {
   text-align: center;
