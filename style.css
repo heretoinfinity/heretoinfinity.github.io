@@ -1,10 +1,22 @@
 * {
   box-sizing: border-box;
+}
 
+body {
+  width: 80%;
+  margin: auto;
+  border: solid;
 }
 
 header {
   background: yellow
+}
+
+#main {
+  box-sizing: border-box;
+  width: 75%;
+  padding: 2%;
+  margin: auto;
 }
 
 nav > ul {
@@ -25,18 +37,24 @@ img {
   height: 100px;
 }
 
-/*#main {
-  box-sizing: border-box;
-  width: 75%;
-  margin: 0;
-  float: left;
+
+footer {
+  text-align: center;
+  color: #4795e9;
+  max-width: 30%;
+  margin: auto;
+  /*background-image: url('ball.jpg')*/
 }
 
+footer img {
+
+}
+
+
 aside {
-  box-sizing: border-box;
-  width: 25%;
-  float: left;
-}*/
+  /*background-image: url('favicon.ico');*/
+  /*background-repeat: repeat-x;*/
+}
 
 /*    h1 {
   font-size: 2em;
