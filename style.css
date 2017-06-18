@@ -70,5 +70,22 @@ aside {
 }
 
 @media only screen and (min-width: 960px) {
+  main, aside {
+    display: inline-block;
+    vertical-align: top;
+  }
 
+  main {
+    width: 70%;
+  }
+
+  aside {
+    width: 25%;
+    padding-top: 5%;
+    min-height: 100%
+  }
+
+  footer {
+    border: solid;
+  }
 }
