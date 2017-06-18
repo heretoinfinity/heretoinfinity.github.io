@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+  border: solid;
+}
+
+header {
+  /*background: yellow;*/
+  font-family: Helvetica;
+  background-image: url('cleats.jpg');
+  background-size: 20%;
+  color: #f7ffbe;
+}
+
+main {
+  box-sizing: border-box;
+  width: 75%;
+  padding: 2%;
+  margin: auto;
+}
+
+iframe {
+  width: 80%;
+}
+
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.menu li {
+  display: inline;
+  float: left;
+  padding: 0 10px 0 0;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+a:visited {
+  color: red;
+}
+
+.style {
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  color: #4795e9;
+  max-width: 30%;
+  margin: auto;
+  /*background-image: url('ball.jpg')*/
+}
+
+aside {
+  width: 75%;
+  margin: auto;
+  background-image: url('favicon.ico');
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+
+@media only screen and (min-width: 960px) {
+  main, aside {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  main {
+    width: 70%;
+  }
+
+  aside {
+    width: 25%;
+    padding-top: 5%;
+    min-height: 100%
+  }
+
+  footer {
+    border: solid;
+  }
+}
